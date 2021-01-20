@@ -12,4 +12,71 @@ body{
     min-height: 1220px;
     background-image: url("LetItBe_0.jpg");
     color: whitesmoke;
+    padding-top: 154px;
+}
+.beatle{
+    width: 130px;
+    cursor: pointer;
+}
+
+.beatle .naam{
+    opacity: 0;
+    text-shadow: 0 0 4px rgb(94, 0, 0);
+}
+
+.beatle:hover .naam{
+    opacity: 1;
+}
+
+#john{
+    margin-left: 117px;
+    padding-top: 400px;
+    padding-bottom: 10px;
+    padding-left: 342px;
+}
+
+#paul{
+    margin-left: 604px;
+    margin-top: -471px;
+    padding-bottom: 11px;
+    padding-top: 398px;
+    padding-left: 10px;
+    padding-right: 328px;
+}
+
+#ringo{
+    margin-left: 117px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 341px;
+    padding-bottom: 398px;
+}
+
+
+#george{
+    margin-left: 604px;
+    margin-top: -469px;
+    padding-top: 10px;
+    padding-right: 328px;
+    padding-left: 10px;
+    padding-bottom: 398px;
+}
+
+h3, p{
+    padding: 0;
+    margin: 0;
+}
+
+.naam{
+    border-left: solid 10px rgb(255, 56, 21);
+    padding-left: 10px;
+    transition: 300ms	;
+}
+
+#john .naam{
+    
+
+}
+#john .name h3, p{
+    margin-bottom: px;
 }
